@@ -1,0 +1,7 @@
+../Core/Src/bsp_display.c:21:6:bsp_display_init	1
+../Core/Src/bsp_display.c:28:6:bsp_display_text	4
+../Core/Src/bsp_display.c:48:6:bsp_display_text_line	1
+../Core/Src/bsp_display.c:54:6:bsp_display_list_file	3
+../Core/Src/bsp_display.c:77:6:bsp_display_index_choose_file	1
+../Core/Src/bsp_display.c:85:6:bsp_display_clear	1
+../Core/Src/bsp_display.c:90:6:bsp_display_title_choose_file	1

@@ -1,0 +1,88 @@
+09:34:11 **** Incremental Build of configuration Debug for project Lab_SDcard_LCD ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/system.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F405xx -c -I../FATFS/Target -I../FATFS/App -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FatFs/src -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/system.d" -MT"Core/Src/system.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/system.o"
+../Core/Src/system.c: In function 'sys_process_state_display_file':
+../Core/Src/system.c:52:33: error: 'lab2' undeclared (first use in this function); did you mean 'labs'?
+   52 |       bsp_sd_card_read_file_txt(lab2, buf);
+      |                                 ^~~~
+      |                                 labs
+../Core/Src/system.c:52:33: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:52: Core/Src/system.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+09:35:23 **** Incremental Build of configuration Debug for project Lab_SDcard_LCD ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/system.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F405xx -c -I../FATFS/Target -I../FATFS/App -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FatFs/src -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/system.d" -MT"Core/Src/system.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/system.o"
+arm-none-eabi-gcc -o "Lab_SDcard_LCD.elf" @"objects.list"   -mcpu=cortex-m4 -T"E:\stm32\Lab_SDcard_LCD-main\Lab_SDcard_LCD\STM32F405RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab_SDcard_LCD.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab_SDcard_LCD.elf
+ 
+arm-none-eabi-size   Lab_SDcard_LCD.elf 
+arm-none-eabi-objdump -h -S  Lab_SDcard_LCD.elf  > "Lab_SDcard_LCD.list"
+   text	   data	    bss	    dec	    hex	filename
+  38972	    116	   4348	  43436	   a9ac	Lab_SDcard_LCD.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lab_SDcard_LCD.list
+ 
+09:35:53 **** Incremental Build of configuration Debug for project Lab_SDcard_LCD ****
+make -j4 all 
+arm-none-eabi-size   Lab_SDcard_LCD.elf 
+   text	   data	    bss	    dec	    hex	filename
+  38972	    116	   4348	  43436	   a9ac	Lab_SDcard_LCD.elf
+Finished building: default.size.stdout
+ 
+09:37:14 **** Incremental Build of configuration Debug for project Lab_SDcard_LCD ****
+make -j4 all 
+arm-none-eabi-size   Lab_SDcard_LCD.elf 
+   text	   data	    bss	    dec	    hex	filename
+  38972	    116	   4348	  43436	   a9ac	Lab_SDcard_LCD.elf
+Finished building: default.size.stdout
+ 
+09:38:05 **** Incremental Build of configuration Debug for project Lab_SDcard_LCD ****
+make -j4 all 
+arm-none-eabi-size   Lab_SDcard_LCD.elf 
+   text	   data	    bss	    dec	    hex	filename
+  38972	    116	   4348	  43436	   a9ac	Lab_SDcard_LCD.elf
+Finished building: default.size.stdout
+ 
+09:39:38 **** Incremental Build of configuration Debug for project Lab_SDcard_LCD ****
+make -j4 all 
+arm-none-eabi-size   Lab_SDcard_LCD.elf 
+   text	   data	    bss	    dec	    hex	filename
+  38972	    116	   4348	  43436	   a9ac	Lab_SDcard_LCD.elf
+Finished building: default.size.stdout
+ 
+09:40:34 **** Incremental Build of configuration Debug for project Lab_SDcard_LCD ****
+make -j4 all 
+arm-none-eabi-size   Lab_SDcard_LCD.elf 
+   text	   data	    bss	    dec	    hex	filename
+  38972	    116	   4348	  43436	   a9ac	Lab_SDcard_LCD.elf
+Finished building: default.size.stdout
+ 
+09:42:04 **** Incremental Build of configuration Debug for project Lab_SDcard_LCD ****
+make -j4 all 
+arm-none-eabi-size   Lab_SDcard_LCD.elf 
+   text	   data	    bss	    dec	    hex	filename
+  38972	    116	   4348	  43436	   a9ac	Lab_SDcard_LCD.elf
+Finished building: default.size.stdout
+ 
+09:45:11 **** Incremental Build of configuration Debug for project Lab_SDcard_LCD ****
+make -j4 all 
+arm-none-eabi-size   Lab_SDcard_LCD.elf 
+   text	   data	    bss	    dec	    hex	filename
+  38972	    116	   4348	  43436	   a9ac	Lab_SDcard_LCD.elf
+Finished building: default.size.stdout
+ 
+09:45:50 **** Incremental Build of configuration Debug for project Lab_SDcard_LCD ****
+make -j4 all 
+arm-none-eabi-size   Lab_SDcard_LCD.elf 
+   text	   data	    bss	    dec	    hex	filename
+  38972	    116	   4348	  43436	   a9ac	Lab_SDcard_LCD.elf
+Finished building: default.size.stdout
+ 
+09:49:25 **** Incremental Build of configuration Debug for project Lab_SDcard_LCD ****
+make -j4 all 
+arm-none-eabi-size   Lab_SDcard_LCD.elf 
+   text	   data	    bss	    dec	    hex	filename
+  38972	    116	   4348	  43436	   a9ac	Lab_SDcard_LCD.elf
+Finished building: default.size.stdout
+ 

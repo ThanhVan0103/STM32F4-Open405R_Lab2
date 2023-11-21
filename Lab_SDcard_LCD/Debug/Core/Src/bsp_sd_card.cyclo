@@ -1,0 +1,4 @@
+../Core/Src/bsp_sd_card.c:21:6:bsp_sd_card_mount	1
+../Core/Src/bsp_sd_card.c:26:6:bsp_sd_card_unmount	1
+../Core/Src/bsp_sd_card.c:31:6:bsp_sd_card_read_file_txt	1
+../Core/Src/bsp_sd_card.c:36:6:bsp_sd_card_scan_file	1

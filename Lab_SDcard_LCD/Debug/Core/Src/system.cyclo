@@ -1,0 +1,6 @@
+../Drivers/CMSIS/Include/core_cm4.h:1939:34:__NVIC_SystemReset	1
+../Core/Src/system.c:28:13:sys_process_state_menu	1
+../Core/Src/system.c:36:13:sys_process_state_display_file	4
+../Core/Src/system.c:59:6:system_init	1
+../Core/Src/system.c:75:6:system_process	4
+../Core/Src/system.c:99:6:system_reset	0
